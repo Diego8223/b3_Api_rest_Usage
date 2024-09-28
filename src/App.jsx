@@ -1,14 +1,19 @@
+//import { ApiCoffeeCarruselBasic } from './assets/components/ApiCoffeeCarruselBasic'
+//import { CatGalleryFetch } from './assets/components/CatGalleryFetch'
+import {PublicImagesGallery} from './assets/components/PublicImagesGallery'
 import './App.css'
-//import { ApiCoffeeCarruselBasic } from './components/ApiCoffeeCarruselBasic'
-import { CatGalleryFetch } from './assets/components/CatGalleryFetch';
 
 function App() {
+ 
 
 
   return (
-    <div>
-      <CatGalleryFetch />
-    </div>
+    <>
+  {/*<ApiCoffeeCarruselBasic/>*/}
+  {/*<CatGalleryFetch/>*/}
+  <PublicImagesGallery/>
+    
+    </>
   )
 }
 
