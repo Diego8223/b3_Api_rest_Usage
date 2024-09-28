@@ -52,3 +52,8 @@ body, html {
   overflow: hidden; /* Previene que el texto se desborde */
 }
 
+.scrollable-container {
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
